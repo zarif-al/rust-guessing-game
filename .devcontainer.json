@@ -18,7 +18,8 @@
 				"ms-vsliveshare.vsliveshare-audio",
 				"ms-vsliveshare.vsliveshare-pack",
 				"PKief.material-icon-theme",
-				"rust-lang.rust-analyzer"
+				"rust-lang.rust-analyzer",
+				"jinxdash.prettier-rust"
 			],
 			"settings": {
 				// Editor Settings
@@ -31,7 +32,8 @@
 				},
 				// Prettier
 				"prettier.useTabs": true,
-				"prettier.enableDebugLogs": true
+				"prettier.enableDebugLogs": true,
+				"editor.defaultFormatter": "jinxdash.prettier-rust"
 			}
 		}
 	},
