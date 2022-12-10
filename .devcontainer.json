@@ -1,0 +1,38 @@
+{
+	/**
+	* Name of the container. Should be the project name.
+	*/
+	"name": "Chapter-2",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"workspaceMount": "source=${localWorkspaceFolder},target=/guidebook/chapter-2,type=bind,consistency=cached",
+	"workspaceFolder": "/guidebook/chapter-2",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"michelemelluso.code-beautifier",
+				"mikestead.dotenv",
+				"mhutchie.git-graph",
+				"ms-vsliveshare.vsliveshare",
+				"ms-vsliveshare.vsliveshare-audio",
+				"ms-vsliveshare.vsliveshare-pack",
+				"PKief.material-icon-theme",
+				"rust-lang.rust-analyzer"
+			],
+			"settings": {
+				// Editor Settings
+				"editor.formatOnPaste": true,
+				"editor.formatOnSave": true,
+				"editor.formatOnType": true,
+				"workbench.iconTheme": "material-icon-theme",
+				"editor.codeActionsOnSave": {
+					"source.fixAll.eslint": true
+				},
+				// Prettier
+				"prettier.useTabs": true,
+				"prettier.enableDebugLogs": true
+			}
+		}
+	},
+}
