@@ -6,4 +6,4 @@ services:
     command: /bin/sh -c "while sleep 1000; do :; done"
     restart: on-failure:10
     volumes:
-      - .:/guidebook/chapter-2:cached
+      - .:/workspace

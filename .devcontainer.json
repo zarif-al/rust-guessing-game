@@ -2,12 +2,10 @@
 	/**
 	* Name of the container. Should be the project name.
 	*/
-	"name": "Chapter-2",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-	"workspaceMount": "source=${localWorkspaceFolder},target=/guidebook/chapter-2,type=bind,consistency=cached",
-	"workspaceFolder": "/guidebook/chapter-2",
+	"name": "Chapter 2",
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "rust-env",
+	"workspaceFolder": "/workspace",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -37,4 +35,5 @@
 			}
 		}
 	},
+	"shutdownAction": "stopCompose"
 }
