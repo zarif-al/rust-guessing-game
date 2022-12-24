@@ -1,4 +1,4 @@
-# Rust tutorial
+# Guessing Game
 This is a 'Guessing Game' created using Rust, as part of the Rust guidebook.
 
 To run the application, please perform the following steps:
